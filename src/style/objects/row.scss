@@ -1,0 +1,43 @@
+/*
+      Objects: Row
+      ---
+      Creates a horizontal row that stretches the viewport and adds padding around children
+  */
+
+.o-row {
+  position: relative;
+  padding: 24px 24px 0;
+}
+/* size modifiers */
+
+.o-row--sm {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.o-row--md {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.o-row--lg {
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+.o-row--xl {
+  padding-top: 72px;
+  padding-bottom: 48px;
+}
+@media (min-width: 768px) {
+  .o-row {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media (min-width: 992px) {
+  .o-row--xl {
+    padding-top: 96px;
+    padding-bottom: 72px;
+  }
+}

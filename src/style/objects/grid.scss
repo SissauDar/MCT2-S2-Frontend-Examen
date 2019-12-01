@@ -1,0 +1,13 @@
+/*
+      Objects: Grid
+      ---
+      Creates a grid with a gap
+  */
+.o-grid {
+  display: grid;
+  gap: calc(var(--gutter)*2);
+}
+
+.o-grid {
+  gap: 1rem;
+}

@@ -1,0 +1,42 @@
+/*
+      Generic: Page
+      ---
+      Global page styles + universal box-sizing:
+  */
+
+body,
+html {
+  // font: #{$font-size} / 1.5 $font-stack-alpha;
+  font-size: $font-size;
+  line-height: 1.5;
+  font-family: $font-stack-alpha;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100%;
+  color: map-get($colors-alpha, black);
+  background-color: var(--main-color-background);
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+/*
+  * Remove text-shadow in selection highlight:
+  * https://twitter.com/miketaylr/status/12228805301
+  *
+  * Customize the background color to match your design.
+  */
+::-moz-selection {
+  background: black;
+  color: white;
+  text-shadow: none;
+}
+
+::selection {
+  background: black;
+  color: white;
+  text-shadow: none;
+}

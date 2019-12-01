@@ -1,0 +1,28 @@
+:root {
+  --main-color-text: #222222;
+  --main-color-background: #ffffff;
+}
+$color-alpha: #FCB800;
+$colors-alpha: (
+  yellow: #FCB800,
+  red: #C03D08,
+  blue: #004E91,
+  black: #222222,
+  gray: #5B5B63,
+  green: #00D664,
+  background: #FFFFFF
+);
+$colorNeutral: (
+  xxxx-light: #F5F6FA,
+  xxx-light: #E2E3E7,
+  xx-light: #caccd4,
+  x-light: #b5b6c0,
+  light: #fafafa,
+  neutral: #8b8c9a,
+  dark: #888888,
+  x-dark: #606274,
+  xx-dark: #4b4c60,
+  xxx-dark: #35374d,
+  xxxx-dark: #20223a
+);
+$shadow-color: #20223a15;
